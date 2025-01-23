@@ -13,7 +13,7 @@ if ! command -v git &> /dev/null; then
 fi
 
 git clone https://github.com/0xnoid/PostmanCollector
-cd RepoRepo
+cd PostmanCollector
 rm install.sh
 
 python -m venv venv
@@ -24,4 +24,4 @@ pip install -r requirements.txt
 python pyfile.py -h
 
 
-echo "Installation complete! RepoRepo has been set up in a virtual environment."
+echo "Installation complete! Postman Collector has been set up with a Python Virtual Environment"

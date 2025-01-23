@@ -44,7 +44,7 @@ python postman.py -u https://api.example.com -s swagger.js -o SomeCollection
 ## Installation:
 #### Quick install:
 ```sh
-curl -s https://raw.githubusercontent.com/0xnoid/PostmanCollector/main/install.sh | bash
+curl -s https://raw.githubusercontent.com/0xnoid/PostmanCollector/refs/heads/master/install.sh | bash
 ```
 
 #### Manually:
