@@ -44,13 +44,13 @@ python postman.py -u https://api.example.com -s swagger.js -o SomeCollection
 ## Installation:
 #### Quick install:
 ```sh
-curl -s https://raw.githubusercontent.com/0xnoid/PostmanCollector/refs/heads/master/install.sh | bash
+curl -s https://raw.githubusercontent.com/0xnoid/PostmanCollector/refs/heads/master/install.sh | bash && cd PostmanCollector/ && source venv/bin/activate
 ```
 
 #### Manually:
 ```sh
 git clone https://github.com/0xnoid/PostmanCollector
-cd RepoRepo
+cd PostmanCollector
 python -m venv venv/
 source venv/bin/activate
 pip install -r requirements.txt
