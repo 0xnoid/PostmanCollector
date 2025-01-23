@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Requirement check
+# Vibe check
 if ! command -v python &> /dev/null; then
     echo "Python is not installed. Please install Python first."
     exit 1
@@ -21,7 +21,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
-python pyfile.py -h
+python PostmanCollector.py -h
 
 
 echo "Installation complete! Postman Collector has been set up with a Python Virtual Environment"
